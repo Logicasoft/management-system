@@ -37,7 +37,7 @@ class MgmtsystemReview(models.Model):
         "State",
         readonly=True,
         default="open",
-        track_visibility="onchange",
+        tracking=True,
     )
 
     company_id = fields.Many2one(
