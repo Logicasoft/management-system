@@ -22,13 +22,5 @@
         "views/mgmtsystem_hazard_control_measure.xml",
         "views/mgmtsystem_hazard_test.xml",
     ],
-    "demo": [
-        "demo/mgmtsystem_hazard_hazard.xml",
-        "demo/mgmtsystem_hazard_origin.xml",
-        "demo/mgmtsystem_hazard_probability.xml",
-        "demo/mgmtsystem_hazard_severity.xml",
-        "demo/mgmtsystem_hazard_type.xml",
-        "demo/mgmtsystem_hazard_usage.xml",
-    ],
     "installable": True,
 }

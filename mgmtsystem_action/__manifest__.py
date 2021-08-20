@@ -22,6 +22,5 @@
         "reports/mgmtsystem_action_report.xml",
         "views/menus.xml",
     ],
-    "demo": ["demo/mgmtsystem_action.xml"],
     "installable": True,
 }
