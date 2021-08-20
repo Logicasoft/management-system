@@ -84,7 +84,7 @@
                             <div class="o_dropdown_kanban dropdown">
 
                                 <a class="dropdown-toggle btn" role="button" data-toggle="dropdown" href="#">
-                                    <span class="fa fa-bars fa-lg"/>
+                                    <span class="fa fa-bars fa-lg" title="TEST"/>
                                 </a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
                                     <t t-if="widget.editable">
