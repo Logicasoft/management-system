@@ -46,16 +46,7 @@ class MgmtsystemAction(models.Model):
         required=True,
     )
     description = fields.Html("Description")
-    type_action = fields.Selection(
-        [
-            ("immediate", "Immediate Action"),
-            ("correction", "Corrective Action"),
-            ("prevention", "Preventive Action"),
-            ("improvement", "Improvement Opportunity"),
-        ],
-        "Response Type",
-        required=True,
-    )
+    type_action = fields.Selection("get_type_action", string="Response Type", required=True)
     stage_id = fields.Many2one(
         "mgmtsystem.action.stage",
         "Stage",
@@ -66,6 +57,14 @@ class MgmtsystemAction(models.Model):
         group_expand="_stage_groups",
     )
     tag_ids = fields.Many2many("mgmtsystem.action.tag", string="Tags")
+
+    def get_type_action(self):
+        return [
+            ("immediate", _("Immediate Action")),
+            ("correction", _("Corrective Action")),
+            ("prevention", _("Preventive Action")),
+            ("improvement", _("Improvement Opportunity")),
+        ]
 
     def _default_owner(self):
         return self.env.user
