@@ -3,7 +3,7 @@
 
 {
     "name": "Hazard",
-    "version": "14.0.1.1.0",
+    "version": "15.0.0.1",
     "author": "Savoir-faire Linux, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/management-system",
     "license": "AGPL-3",
@@ -22,5 +22,5 @@
         "views/mgmtsystem_hazard_control_measure.xml",
         "views/mgmtsystem_hazard_test.xml",
     ],
-    "installable": False,
+    "installable": True,
 }

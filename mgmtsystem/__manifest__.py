@@ -3,7 +3,7 @@
 
 {
     "name": "Management System",
-    "version": "14.0.1.0.0",
+    "version": "15.0.0.1",
     "author": "Savoir-faire Linux,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/management-system",
     "license": "AGPL-3",
@@ -16,6 +16,6 @@
         "views/mgmtsystem_system.xml",
         "views/res_config.xml",
     ],
-    "installable": False,
+    "installable": True,
     "application": True,
 }
