@@ -37,5 +37,5 @@
         "views/mgmtsystem_claim_stage.xml",
         "views/res_partner_views.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

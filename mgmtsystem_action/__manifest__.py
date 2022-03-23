@@ -22,5 +22,5 @@
         "reports/mgmtsystem_action_report.xml",
         "views/menus.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

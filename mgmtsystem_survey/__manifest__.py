@@ -10,5 +10,5 @@
     "category": "Management System",
     "depends": ["mgmtsystem", "survey"],
     "data": ["views/survey_survey.xml"],
-    "installable": True,
+    "installable": False,
 }

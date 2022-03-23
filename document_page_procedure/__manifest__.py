@@ -11,5 +11,5 @@
     "depends": ["document_page", "mgmtsystem"],
     "data": ["data/document_page_procedure.xml", "views/document_page_procedure.xml"],
     "demo": ["demo/document_page_procedure.xml"],
-    "installable": True,
+    "installable": False,
 }

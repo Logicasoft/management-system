@@ -16,6 +16,6 @@
         "views/mgmtsystem_system.xml",
         "views/res_config.xml",
     ],
-    "installable": True,
+    "installable": False,
     "application": True,
 }

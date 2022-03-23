@@ -22,5 +22,5 @@
         "views/mgmtsystem_hazard_control_measure.xml",
         "views/mgmtsystem_hazard_test.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

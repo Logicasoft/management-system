@@ -21,5 +21,5 @@
         "report/mgmtsystem_audit_pivot.xml",
         "wizard/copy_verification_lines.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

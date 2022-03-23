@@ -25,5 +25,5 @@
         "data/mail_message_subtype.xml",
         "reports/mgmtsystem_nonconformity_report.xml",
     ],
-    "installable": True,
+    "installable": False,
 }
