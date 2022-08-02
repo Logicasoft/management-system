@@ -5,3 +5,8 @@
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Ernesto Tejeda
+
+Trobz
+
+* Dung Tran <dungtd@trobz.com>
+* Yvan Dotet <yvan.dotet@logicasoft.eu>
